@@ -7,24 +7,22 @@ windows和linux基线检查，配套自动化检查脚本。纯手工编写。
         ![image](https://user-images.githubusercontent.com/40255379/142581629-c879b9ae-ce15-45eb-af93-fbcaa588fef7.png)
 
 windows脚本：
-    使用powershell运行，运行报错解决： 
-    
-        ![image](https://user-images.githubusercontent.com/40255379/142582487-bdc92c8b-8215-43b9-b438-e7be41bb4003.png)
+    使用powershell运行.\windowsCheck2.1.ps1，运行报错解决![image](https://user-images.githubusercontent.com/40255379/142582487-bdc92c8b-8215-43b9-b438-e7be41bb4003.png)
         
-    powershell输入：set-ExecutionPolicy RemoteSigned  键入：Y
-        ![image](https://user-images.githubusercontent.com/40255379/142583004-b7c9ce7d-5254-4e48-b792-17e93cfde0ce.png)
+   powershell输入set-ExecutionPolicy RemoteSigned  键入：Y![image](https://user-images.githubusercontent.com/40255379/142583004-b7c9ce7d-5254-4e48-b792-17e93cfde0ce.png)
         
-     运行截图：
-     
-       ![image](https://user-images.githubusercontent.com/40255379/142583521-c576c998-62c3-4c49-9a23-05422bb679ce.png)
+   运行截图![image](https://user-images.githubusercontent.com/40255379/142583521-c576c998-62c3-4c49-9a23-05422bb679ce.png)
        
-     运行完成后生成ip.csv文件
-     
-        ![image](https://user-images.githubusercontent.com/40255379/142583685-7fa5c15f-3572-4ec4-82e7-eea58971c5c2.png)
+   运行完成后生成ip.csv文件![image](https://user-images.githubusercontent.com/40255379/142583685-7fa5c15f-3572-4ec4-82e7-eea58971c5c2.png)
         
 
 Linux脚本：
-        ./xxxx.sh
-        
-        
- 脚本依据文档内容编写而来。
+        ./linuxcheck2.2.sh![image](https://user-images.githubusercontent.com/40255379/142585459-63be1daa-377b-48ff-9f8e-1f6247cfbc05.png)
+运行完成后生成checklist.csv文件![image](https://user-images.githubusercontent.com/40255379/142585896-464f8927-352e-4d3b-a8ea-1381d313502e.png)
+为了更加方便阅读，请对其进行分列，按照tab键进行分列。
+
+
+
+                                                                                                      BY：唐杰
+                                                                                                      2021年11月19号
+  
