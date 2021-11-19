@@ -170,7 +170,7 @@ if($ResetLockoutCount -ne $null){
 			$config_line[1] = $config_line[1].Trim(' ')
 			$test34 = $config_line[1]
 			#2021/04/28 修改标准值为[5,8]
-			if(($config_line[1] -ge "5") and ($config_line[1] -le "8"))
+			if(($config_line[1] -ge "5") -and ($config_line[1] -le "8"))
 			{
 				#$data.code = "1"
 				$projectdata = @{"true"="3.4 检查是否已正确配置帐户锁定时间 >=1  $test34 TRUE";}
