@@ -14,12 +14,15 @@ windows脚本：
    运行截图![image](https://user-images.githubusercontent.com/40255379/142583521-c576c998-62c3-4c49-9a23-05422bb679ce.png)
        
    运行完成后生成ip.csv文件![image](https://user-images.githubusercontent.com/40255379/142583685-7fa5c15f-3572-4ec4-82e7-eea58971c5c2.png)
-        注意： 当使用excel2007 打开生成的csv文件时，如果出现乱码情况，请调整脚本的编码类型：
+       
+   注意： 当使用excel2007 打开生成的csv文件时，如果出现乱码情况，请调整脚本的编码类型：
         脚本第七行：#$PSDefaultParameterValues['Out-File:Encoding'] = 'utf8'  --->$PSDefaultParameterValues['Out-File:Encoding'] = 'oem'
         再次运行即可。感谢https://github.com/softzcw 大佬指出该问题！！
 
+
 Linux脚本：
         ./linuxcheck2.2.sh![image](https://user-images.githubusercontent.com/40255379/142585459-63be1daa-377b-48ff-9f8e-1f6247cfbc05.png)
+
 运行完成后生成checklist.csv文件![image](https://user-images.githubusercontent.com/40255379/142585896-464f8927-352e-4d3b-a8ea-1381d313502e.png)
 为了更加方便阅读，请对其进行分列，按照tab键进行分列。
 
