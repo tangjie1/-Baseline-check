@@ -26,7 +26,7 @@ Linux脚本：
        ..
       运行完成后生成checklist.csv文件
 ![image](https://user-images.githubusercontent.com/40255379/142585896-464f8927-352e-4d3b-a8ea-1381d313502e.png)。
-为了更加方便阅读，请对其进行分列，按照tab键进行分列。
+--**为了更加方便阅读，请对其进行分列，按照tab键进行分列。**--
 
 
 
