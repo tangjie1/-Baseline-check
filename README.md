@@ -9,7 +9,8 @@ windows和linux基线检查，配套自动化检查脚本。纯手工编写。
 windows脚本：
     使用powershell运行.\windowsCheck2.1.ps1，运行报错解决![image](https://user-images.githubusercontent.com/40255379/142582487-bdc92c8b-8215-43b9-b438-e7be41bb4003.png)
         
-   powershell输入set-ExecutionPolicy Unrestricted  键入：Y![image](https://user-images.githubusercontent.com/40255379/142583004-b7c9ce7d-5254-4e48-b792-17e93cfde0ce.png)
+   powershell输入set-ExecutionPolicy Unrestricted  键入：Y![image](https://github.com/tangjie1/-Baseline-check/assets/40255379/0ca5a314-85d9-4552-ae37-33416d40a8ab)
+
         
    运行截图![image](https://user-images.githubusercontent.com/40255379/142583521-c576c998-62c3-4c49-9a23-05422bb679ce.png)
        
