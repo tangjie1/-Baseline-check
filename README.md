@@ -21,12 +21,12 @@ windows脚本：
  再次运行即可。感谢https://github.com/softzcw 大佬指出该问题！！
 
 
-Linux脚本：
+Linux脚本：<span style="color:red">**注意：Linux基线检查中的6.8项目 检查用户认证失败次数限制，请自先不要配置，会造成无法远程ssh和本地登陆的情况，待我分析完成后会做出调整**</span>
        ./linuxcheck2.2.sh![image](https://user-images.githubusercontent.com/40255379/142585459-63be1daa-377b-48ff-9f8e-1f6247cfbc05.png)。
        ..
       运行完成后生成checklist.csv文件
 ![image](https://user-images.githubusercontent.com/40255379/142585896-464f8927-352e-4d3b-a8ea-1381d313502e.png)。
---**为了更加方便阅读，请对其进行分列，按照tab键进行分列。**--
+--<span style="color:red">**为了更加方便阅读，请对其进行分列，按照tab键进行分列。**</span>--
 
 
 
